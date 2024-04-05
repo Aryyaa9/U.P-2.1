@@ -5,7 +5,7 @@ class Program
 {
     static List<List<int>> combinationSum (int[] candidates, int target) 
     {
-        Array.Sort(candidates); // Сначала сортируем массив кандидатов
+        Array.Sort(candidates); 
         List<List<int>> result = new List<List<int>>();
         List<int> currentList = new List<int>();
         
