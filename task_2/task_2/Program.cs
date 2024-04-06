@@ -30,7 +30,7 @@ class Program
             
             combinationSumHelper(candidates, target - candidates[i], i + 1, currentList, result);
             
-            currentList.RemoveAt(currentList.Count - 1);
+            currentList.Clear();
         }
     }
 
